@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 20px; 
+  align-items: stretch; 
+  padding: 20px;
+  
+}
+
+.blog-column {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column; 
+}
+
+.blog-column h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.blog-column ul {
+	align-content:center;
+	justify-content:center;
+  list-style: none;
+  flex-grow: 1; 
+}
+
+.blog-column li {
+  
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 4px;
+}
